@@ -10,5 +10,7 @@ services:
       - node_modules_volume:/var/www/html/node_modules
     stdin_open: true
     tty: true
+    environment:
+      - WATCHPACK_POLLING=true
 volumes:
   node_modules_volume:
