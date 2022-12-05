@@ -61,8 +61,10 @@ export function toPropValue<T>(
         )};`
         reslut.push(`2media screen and (min-width: ${breakpoint}) {${style}}`)
       }
+      return reslut.join('\n')
     }
   }
+  return `${propKey}: ${toThemeValueIfNeeded(propKey, prop, theme)};`
 }
 
 const SPACE_KEYS = new Set([
