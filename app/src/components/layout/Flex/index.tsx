@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import { toPropValue } from 'util/types'
+import { toPropValue } from 'utils/styles'
 import styled from 'styled-components'
 import Box, { BoxProps } from 'components/layout/Box'
 
