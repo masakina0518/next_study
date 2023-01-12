@@ -6,8 +6,8 @@ import {
   toPropValue,
   Color,
   FontSize,
-  LetterSpaceing,
-  LineHeigh,
+  LetterSpacing,
+  LineHeight,
   Space,
 } from 'utils/styles'
 
@@ -17,8 +17,8 @@ export type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   variant?: ButtonValiant
   fontSize?: Responsive<FontSize>
   fontWeight?: Responsive<string>
-  letterSpacing?: Responsive<LetterSpaceing>
-  lineHeight?: Responsive<LineHeigh>
+  letterSpacing?: Responsive<LetterSpacing>
+  lineHeight?: Responsive<LineHeight>
   textAlign?: Responsive<string>
   color?: Responsive<Color>
   backgroundColor?: Responsive<Color>
@@ -189,7 +189,7 @@ Button.defaultProps = {
   color: 'white',
   display: 'inline-block',
   textAlign: 'center',
-  linHeight: 'center',
+  lineHeight: 'center',
   fontSize: 'inherit',
 }
 
